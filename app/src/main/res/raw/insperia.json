@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Food & Drink",
+    "id": "food",
+    "theme": "green",
+    "quizzes": [
+      {
+        "type": "four-quarter",
+        "question": "Hva er det et vannkraftverk lage i virkeligheten?.",
+        "options": [
+          "Strøm",
+          "Vann",
+          "Gass",
+          ""
+        ],
+        "answer": [0],
+        "mac": 40145
+      },
+      {
+        "type": "fill-blank",
+        "question": "Mole is a popular paste in Mexico. Mole is a mixture of chili’s and what other tasty ingredient?",
+        "answer": "Chocolate",
+        "mac": 40145
+      }
+    ],
+    "scores": [
+      0,
+      0
+    ],
+    "solved": "false"
+  },
+  {
+    "name": "General Knowledge",
+    "id": "knowledge",
+    "theme": "yellow",
+    "quizzes": [
+      {
+        "type": "fill-blank",
+        "question": "Mole is a popular paste in Mexico. Mole is a mixture of chili’s and what other tasty ingredient?",
+        "answer": "Chocolate",
+        "mac": 40145
+      },
+      {
+        "type": "four-quarter",
+        "question": "What is the name of the famous art deco skyscraper in New York City?",
+        "options": [
+          "Trump Tower",
+          "Chrysler building",
+          "Empire State Building",
+          "The New York Times Building"
+        ],
+        "answer": [
+          1
+        ],
+        "mac": 40145
+      }
+    ],
+    "scores": [
+      0,
+      0
+    ],
+    "solved": "false"
+  }
+]

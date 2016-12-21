@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".event.EventActivity"
+    android:background="@drawable/inspiria_signin_modified"
+    android:touchscreenBlocksFocus="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go To Stage"
+            android:id="@+id/AR"
+            android:onClick="Doit"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ar_scan"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Go To Stage..."
+            android:id="@+id/textView2"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_toStartOf="@+id/AR"
+            android:layout_marginTop="0dp"
+            android:textColor="#e5c328"
+            android:textStyle="bold|italic"
+            android:layout_gravity="right" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/specialevent"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingTop="10dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/code"
+            android:clickable="false"
+            android:hint="Event Code"
+            android:editable="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:text="ENTER"
+            android:id="@+id/go"
+            android:onClick="goClick"
+            android:layout_below="@+id/code"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="0dp"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="0dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+C:\Users\bkitn\Desktop\Test Chat\Android-PushNotifications-Introduction-master\Android-PushNotifications-Introduction-master\server-side
+use this code to enable event code

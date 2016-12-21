@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "26507868442",
+    "project_id": "inspirialast"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26507868442:android:0a252d5ca49c03c7",
+        "android_client_info": {
+          "package_name": "com.google.samples.apps.topeka"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVRlzqiLvkJOh8u4OcQnvcMPtNo70_tI0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,84 @@
+TASK com.google.samples.apps.topeka id=592
+  ACTIVITY com.google.samples.apps.topeka/.activity.SignInActivity 21f7549a pid=32531
+    Local Activity 2d2908d2 State:
+      mResumed=false mStopped=true mFinished=false
+      mLoadersStarted=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 ?mcc?mnc en_GB ldltr sw360dp w360dp h567dp 480dpi nrml port finger -keyb/v/h -nav/h s.22}
+    Active Fragments in 1f94eda3:
+      #0: SignInFragment{1e308a0 #0 id=0x7f10007b}
+        mFragmentId=#7f10007b mContainerId=#7f10007b mTag=null
+        mState=3 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+        mAdded=true mRemoving=false mResumed=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{1f94eda3 in SignInActivity{2d2908d2}}
+        mActivity=com.google.samples.apps.topeka.activity.SignInActivity@2d2908d2
+        mArguments=Bundle[{EDIT=false}]
+        mSavedViewState={2131755155=android.view.AbsSavedState$1@60b9c59, 2131755163=android.widget.ProgressBar$SavedState@226ae01e, 2131755164=android.view.AbsSavedState$1@60b9c59, 2131755165=android.view.AbsSavedState$1@60b9c59, 2131755206=android.view.AbsSavedState$1@60b9c59, 2131755207=AbsListView.SavedState{2cfec0ff selectedId=-9223372036854775808 firstId=-1 viewTop=0 position=0 height=871 filter=null checkState={0=true}}, 2131755208=android.view.AbsSavedState$1@60b9c59, 2131755209=TextView.SavedState{b800ecc start=0 end=0 text=}, 2131755210=TextView.SavedState{27d0a515 start=0 end=0 text=}, 2131755211=TextView.SavedState{960e02a start=0 end=0 text=}}
+        mContainer=android.widget.FrameLayout{d086e1b V.E..... ........ 0,0-1080,1701 #7f10007b app:id/sign_in_container}
+        mView=android.widget.FrameLayout{22054bb8 V.E..... ........ 0,0-1080,1701}
+        Child FragmentManager{21a37d91 in SignInFragment{1e308a0}}:
+          FragmentManager misc state:
+            mActivity=com.google.samples.apps.topeka.activity.SignInActivity@2d2908d2
+            mContainer=android.app.Fragment$1@1204d4f6
+            mParent=SignInFragment{1e308a0 #0 id=0x7f10007b}
+            mCurState=3 mStateSaved=true mDestroyed=false
+    Added Fragments:
+      #0: SignInFragment{1e308a0 #0 id=0x7f10007b}
+    FragmentManager misc state:
+      mActivity=com.google.samples.apps.topeka.activity.SignInActivity@2d2908d2
+      mContainer=android.app.Activity$1@1135d0f7
+      mCurState=3 mStateSaved=true mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=431542019 (18397941 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{f9f6b64 V.E..... R....... 0,0-1080,1920}
+        android.widget.LinearLayout{2cf161cd V.E..... ........ 0,0-1080,1776}
+          android.view.ViewStub{20214a82 G.E..... ......I. 0,0-0,0 #102036e}
+          android.widget.FrameLayout{356c8593 V.E..... ........ 0,75-1080,1776 #1020002 android:id/content}
+            android.widget.FrameLayout{d086e1b V.E..... ........ 0,0-1080,1701 #7f10007b app:id/sign_in_container}
+              android.widget.FrameLayout{22054bb8 V.E..... ........ 0,0-1080,1701}
+                android.widget.ProgressBar{3299d9d0 G.ED.... ......I. 0,0-0,0 #7f10009b app:id/empty}
+                android.widget.FrameLayout{32bf4dc9 V.E..... ........ 0,0-1080,1701 #7f10009c app:id/content}
+                  com.google.samples.apps.topeka.widget.fab.DoneFab{179d8cce GFED..C. ......I. 0,0-0,0 #7f100093 app:id/done}
+                  android.widget.LinearLayout{44fe7ef V.E..... ........ 0,0-1080,1701}
+                    android.widget.LinearLayout{8ac2fc V.E..... ........ 48,0-1032,661 #7f10009d app:id/ibeacon}
+                      android.widget.TextView{d65fd85 V.ED.... ........ 0,0-984,168 #7f1000c8 app:id/toolbar_sign_in}
+                      android.widget.EditText{2189a7da VFED..CL ........ 0,168-984,336 #7f1000c9 app:id/first_name}
+                      android.widget.EditText{255d140b VFED..CL ........ 0,336-984,504 #7f1000ca app:id/last_initial}
+                      android.widget.EditText{103f12e8 VFED..CL ........ 0,504-984,661 #7f1000cb app:id/org_initial}
+                    android.widget.LinearLayout{2a0ded01 V.E..... ........ 48,661-1032,1700}
+                      android.widget.TextView{35ea67a6 V.ED.... ........ 0,0-984,168 #7f1000c6 app:id/toolbar_choose_avatar}
+                      android.widget.GridView{d5264e6 VFED.VC. .F...... 0,168-984,1039 #7f1000c7 app:id/avatars}
+                        com.google.samples.apps.topeka.widget.AvatarView{30c6e5e7 V.ED.... ........ 0,0-168,168 #7f100073 app:id/avatar}
+                        com.google.samples.apps.topeka.widget.AvatarView{16667594 V.ED.... ........ 246,0-414,168 #7f100073 app:id/avatar}
+                        com.google.samples.apps.topeka.widget.AvatarView{5eb583d V.ED.... ........ 492,0-660,168 #7f100073 app:id/avatar}
+                        com.google.samples.apps.topeka.widget.AvatarView{36455832 V.ED.... ........ 738,0-906,168 #7f100073 app:id/avatar}
+                        com.google.samples.apps.topeka.widget.AvatarView{2511f983 V.ED.... ........ 0,216-168,384 #7f100073 app:id/avatar}
+                        com.google.samples.apps.topeka.widget.AvatarView{ff5700 V.ED.... ........ 246,216-414,384 #7f100073 app:id/avatar}
+                        com.google.samples.apps.topeka.widget.AvatarView{33a3b39 V.ED.... ........ 492,216-660,384 #7f100073 app:id/avatar}
+                        com.google.samples.apps.topeka.widget.AvatarView{24ecc57e V.ED.... ........ 738,216-906,384 #7f100073 app:id/avatar}
+                        com.google.samples.apps.topeka.widget.AvatarView{1a70aadf V.ED.... ........ 0,432-168,600 #7f100073 app:id/avatar}
+                        com.google.samples.apps.topeka.widget.AvatarView{1d82e32c V.ED.... ........ 246,432-414,600 #7f100073 app:id/avatar}
+                        com.google.samples.apps.topeka.widget.AvatarView{11fa51f5 V.ED.... ........ 492,432-660,600 #7f100073 app:id/avatar}
+                        com.google.samples.apps.topeka.widget.AvatarView{50bbb8a V.ED.... ........ 738,432-906,600 #7f100073 app:id/avatar}
+                        com.google.samples.apps.topeka.widget.AvatarView{fdf15fb V.ED.... ........ 0,648-168,816 #7f100073 app:id/avatar}
+                        com.google.samples.apps.topeka.widget.AvatarView{35d10618 V.ED.... ........ 246,648-414,816 #7f100073 app:id/avatar}
+                        com.google.samples.apps.topeka.widget.AvatarView{286b1871 V.ED.... ........ 492,648-660,816 #7f100073 app:id/avatar}
+                        com.google.samples.apps.topeka.widget.AvatarView{2f720656 V.ED.... ........ 738,648-906,816 #7f100073 app:id/avatar}
+        android.view.View{2dff16d7 V.ED.... ........ 0,0-1080,75 #102002f android:id/statusBarBackground}
+        android.view.View{fdc6bc4 V.ED.... ........ 0,1776-1080,1920 #1020030 android:id/navigationBarBackground}
+    Looper (main, tid 1) {747caad}
+      (Total messages: 0, idling=false, quitting=false)

@@ -1,0 +1,25 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "19.1.0"
+
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 23
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/QCARUnityPlayer.jar')
+    compile files('libs/unity-classes.jar')
+    compile files('libs/Vuforia.jar')
+    compile project (':rajawalivuforia')
+}
